@@ -1,0 +1,22 @@
+# 深度学习框架
+torch>=2.0.0
+torchvision>=0.15.0
+
+# 数据处理
+numpy>=1.24.0
+opencv-python>=4.8.0
+
+# 可视化
+matplotlib>=3.7.0
+
+# Jupyter 环境
+jupyter>=1.0.0
+ipykernel>=6.25.0
+ipywidgets>=8.0.0
+
+# 进度条
+tqdm>=4.65.0
+
+# 其他工具
+Pillow>=10.0.0
+
