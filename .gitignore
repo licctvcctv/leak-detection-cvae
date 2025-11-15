@@ -1,0 +1,81 @@
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*_executed.ipynb
+
+# 环境变量
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 数据文件（图片过大，不纳入版本控制）
+images/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.gif
+
+# 标签文件（如果数据集很大可以排除，但这里保留以便复现）
+# labels/
+
+# 模型文件（通常很大）
+artifacts/*.pt
+artifacts/*.pth
+artifacts/*.ckpt
+artifacts/*.h5
+artifacts/*.pkl
+
+# 但保留 split.json 配置文件
+!artifacts/split.json
+
+# 结果文件
+results_*/
+*.txt
+!requirements.txt
+!README.txt
+
+# 日志文件
+*.log
+logs/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# 压缩文件
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Office 临时文件
+~$*.pptx
+~$*.docx
+~$*.xlsx
+
