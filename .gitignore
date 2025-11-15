@@ -43,9 +43,15 @@ artifacts/*.pth
 artifacts/*.ckpt
 artifacts/*.h5
 artifacts/*.pkl
+artifacts_gan/*.pt
+artifacts_gan/*.pth
+artifacts_gan/*.ckpt
+artifacts_gan/*.h5
+artifacts_gan/*.pkl
 
 # 但保留 split.json 配置文件
 !artifacts/split.json
+!artifacts_gan/split_gan.json
 
 # 结果文件
 results_*/
